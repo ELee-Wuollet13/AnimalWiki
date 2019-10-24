@@ -1,3 +1,21 @@
+.jumbotron {
+  background-color: #666633;
+  color: white;
+}
+
+.jumbotron h1 {
+  font-weight: 400;
+}
+
+.card {
+  width: 50%;
+  margin: 1rem auto;
+}
+
+button {
+  margin: 1rem 0;
+}
+
 .lion {
   display: none;
 }

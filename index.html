@@ -5,18 +5,17 @@
   <script src="js/scripts.js" type="text/javascript"></script>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
-
-
-
   <meta charset="utf-8">
   <title>AnimalWiki</title>
 </head>
 <body>
-  <div class="container">
-    <div class="jumbotron">
-      <h1>Animal Wiki: The Zoo Online!</h1>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Animal Wiki: The Zoo Online!</h1>
+      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
     </div>
-
+  </div>
+  <div class="container">
 
     <form id="index" action="index.html" method="post">
       <select class="form-control" id="animal">
@@ -26,23 +25,47 @@
         <option>Bear</option>
         <option>Snake</option>
       </select>
-      <button type="submit" name="button">Submit</button>
+      <button type="submit" class="btn btn-primary btn-sm">Submit</button>
     </form>
 
     <div class="lion">
-      <h4>Lion</h4>
+      <div class="card">
+        <img src="img/lion.jpg" class="card-img-top" alt="An image of a lion">
+        <div class="card-body">
+          <h4 class="card-title">Lion</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
     </div>
 
     <div class="tiger">
-      <h4>Tiger</h4>
+      <div class="card">
+        <img src="img/tiger.jpg" class="card-img-top" alt="An image of a tiger">
+        <div class="card-body">
+          <h4 class="card-title">Tiger</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
     </div>
 
     <div class="bear">
-      <h4>Bear</h4>
+      <div class="card">
+        <img src="img/bear.jpg" class="card-img-top" alt="An image of a bear">
+        <div class="card-body">
+          <h4 class="card-title">Bear</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
     </div>
 
     <div class="snake">
-      <h4>Snake</h4>
+      <div class="card">
+        <img src="img/snake.jpg" class="card-img-top" alt="An image of a snake">
+        <div class="card-body">
+          <h4 class="card-title">Snake</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
     </div>
 
   </div>

@@ -6,7 +6,7 @@ $(document).ready(function() {
     console.log(animal);
     if (animal === "Lion") {
       $(".lion").show()
-    }  else if (animal === "Tiger") {
+    } else if (animal === "Tiger") {
       $(".tiger").show()
     } else if (animal === "Bear") {
       $(".bear").show()
@@ -15,6 +15,5 @@ $(document).ready(function() {
     } else {
       alert("Please select an animal")
     }
-
-  })
-})
+  });
+});
