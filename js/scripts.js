@@ -2,10 +2,7 @@ $(document).ready(function() {
   $("form#index").submit(function(event) {
     event.preventDefault();
     var animal = $("#animal").val();
-    $(".lion").hide();
-    $(".tiger").hide();
-    $(".bear").hide();
-    $(".snake").hide();
+    $(".lion, .tiger, .bear, .snake").hide();
     console.log(animal);
     if (animal === "Lion") {
       $(".lion").show()
